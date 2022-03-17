@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultWheelStyle">
+        <item name="textSize">@dimen/wheel_view_text_size</item>
+        <item name="selectedTextSize">@dimen/wheel_view_selected_text_size</item>
+        <item name="textColor">@color/color_wheel_view_text_color</item>
+        <item name="selectedTextColor">@color/color_wheel_view_selected_text_color</item>
+        <item name="itemHeight">@dimen/wheel_view_item_height</item>
+        <item name="itemCount">5</item>
+        <item name="selectedBgColor">@color/color_wheel_view_selected_bg_color</item>
+    </style>
+</resources>

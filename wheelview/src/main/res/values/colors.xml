@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_wheel_view_text_color">#999999</color>
+    <color name="color_wheel_view_selected_text_color">#171921</color>
+    <color name="color_wheel_view_selected_bg_color">#F8F8F8</color>
+</resources>
