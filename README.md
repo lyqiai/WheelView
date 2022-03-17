@@ -58,3 +58,23 @@ data class Data(
 | --- | --- |
 | fun setSelectPosition(positions: Array<Int>) | 设置选中数据位置 |
 | fun setOnWheelViewGroupSelectorChangedListener(listener: OnWheelViewGroupSelectorChangedListener?) | 设置监听器 |
+
+## 集成
+根目录build.gradle添加：
+
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+```
+
+模块build.gradl添加：
+
+```groovy
+dependencies {
+        implementation 'com.github.lyqiai:wheelview:0.0.1'
+}
+```
